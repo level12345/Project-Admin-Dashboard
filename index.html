@@ -5,45 +5,113 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,    400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"     rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+
   </head>
   <body>
     <div class="container">
       <div class="dashboard-container">
         <div class="user-tabs">
+        <div class="dashboard-div">
+          <span class="material-symbols-outlined">dashboard</span>
           <div class="logo" id="dashboard-logo">Dashboard</div>
+        </div>
+        <div class="home-div">
+          <span class="material-symbols-outlined">
+            home
+            </span>
           <div class="room" id="home">home</div>
+        </div>
+        <div class="profile-div">
+          <span class="material-symbols-outlined">
+            contact_mail
+            </span>
           <div class="room" id="profile">profile</div>
+        </div>
+        <div class="messages-div">
+          <span class="material-symbols-outlined">
+            mail
+            </span>
           <div class="room" id="messages">messages</div>
-          <div class="room" id="history">history</div>
+        </div>
+        <div class="history-div">
+          
+          <span class="material-symbols-outlined">
+            schedule
+            </span>
+            <div class="room" id="history">history</div>
+        </div>
+        <div class="tasks-div">
+          <span class="material-symbols-outlined">
+            task
+          </span>
           <div class="room" id="tasks">tasks</div>
+        </div>
+        <div class="communites-div">
+          <span class="material-symbols-outlined">
+            groups
+            </span>
           <div class="room" id="communites">communites</div>
         </div>
+        </div>
         <div class="faqs">
-          <div class="room" id="settings">settings</div>
-          <div class="room" id="support">support</div>
-          <div class="room" id="privacy">privacy</div>
+          <div class="settings-div">
+            <span class="material-symbols-outlined">
+              settings
+              </span>
+            <div class="room" id="settings">settings</div>
+          </div>
+          <div class="support-div">
+            <span class="material-symbols-outlined">
+              help
+              </span>
+            <div class="room" id="support">support</div>
+          </div>
+          <div class="privacy-div">
+            <span class="material-symbols-outlined">
+              verified_user
+              </span>
+            <div class="room" id="privacy">privacy</div>
+          </div>
         </div>
       </div>
       <div class="rest-of-container">
         <div class="top" id="top">
           <!-- <div class="searchbar" id="searchbar"> -->
+          <div class="magnifying-glass">
+            <span class="search-icon material-symbols-outlined">search</span>
+          </div>
+          
           <form class="searchbar" id="searchbar">
             <div class="search">
-              <span class="search-icon material-symbols-outlined">search</span>
+              
               <input class="search-input" type="search" placeholder="Search...">
             </div>
           </form>
-          <div class="bell-icon" id="bell-icon">bell-icon</div>
+          <div class="bell-icon" id="bell-icon">
+            <span class="material-symbols-outlined">
+              notifications_active
+              </span>
+            
+            
+          </div>
+
           <div class="user-img" id="little-user">
             <img id="little-user1" src="https://s.yimg.com/ny/api/res/1.2/SLcbdGXilDOadCMOMir6eQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTY0MTtjZj13ZWJw/https://media.zenfs.com/en/pethelpful_915/82136ef7a5cb895b7c78ad61bbd7709e">
           </div>
-          <div class="username" id="little-username">little username</div>
+          <div class="username" id="little-username">Morgan Oakley</div>
           <div class="user-img" id="big-user">
             <img id='big-user1' src="https://s.yimg.com/ny/api/res/1.2/SLcbdGXilDOadCMOMir6eQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTY0MTtjZj13ZWJw/https://media.zenfs.com/en/pethelpful_915/82136ef7a5cb895b7c78ad61bbd7709e">
           </div>
 
-          <div class="username" id="big-username">big username</div>
+          <div class="username" id="big-username">
+            <div >Hi there,</div>
+            <div class="HI">Morgan Oakley           (@morgan) </div>
+          </div>
           <div class="interaction" id="new">
             <button class="blue-button" id="new-button">New</button>
             <button class="blue-button" id="new-upload">Upload</button>
@@ -56,31 +124,109 @@
           <h4 class="project-text" id="project-text">Your Projects</h4>
           <div class="projects-layout" id="projects-layout">
             <!-- projects-layout -->
-            <div class="flashcard" id="a1">1</div>
-            <div class="flashcard" id="a2">2</div>
-            <div class="flashcard" id="b1">3</div>
-            <div class="flashcard" id="b1">4</div>
-            <div class="flashcard" id="c1">5</div>
-            <div class="flashcard" id="c2">6</div>
+            <div class="flashcard" id="a1">Super Cool Project
+              <p class="pab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, temporibus dicta omnis voluptate vel optio laudantium similique, aut harum ipsum, numquam nemo repudiandae dolor quibusdam? Quaerat adipisci blanditiis numquam dolor?</p>
+              <div class="logos">
+                <span class="material-symbols-outlined">
+                star
+                </span>
+                <span class="material-symbols-outlined">
+                  visibility
+                </span>
+                <span class="material-symbols-outlined">
+                  share
+                </span>
+              </div>
+            </div>
+            <div class="flashcard" id="a2">2
+              <p class="pab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, temporibus dicta omnis voluptate vel optio laudantium similique, aut harum ipsum, numquam nemo repudiandae dolor quibusdam? Quaerat adipisci blanditiis numquam dolor?mpus ut lacus</p>
+              <div class="logos">
+                <span class="material-symbols-outlined">
+                star
+                </span>
+                <span class="material-symbols-outlined">
+                  visibility
+                </span>
+                <span class="material-symbols-outlined">
+                  share
+                </span>
+              </div>
+            </div>
+            <div class="flashcard" id="b1">3
+              <p class="pab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, temporibus dicta omnis voluptate vel optio laudantium similique, aut harum ipsum, numquam nemo repudiandae dolor quibusdam? Quaerat adipisci blanditiis numquam dolor?mpus ut lacus</p>
+              <div class="logos">
+                <span class="material-symbols-outlined">
+                star
+                </span>
+                <span class="material-symbols-outlined">
+                  visibility
+                </span>
+                <span class="material-symbols-outlined">
+                  share
+                </span>
+              </div>
+            </div>
+            <div class="flashcard" id="b1">4
+              <p class="pab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, temporibus dicta omnis voluptate vel optio laudantium similique, aut harum ipsum, numquam nemo repudiandae dolor quibusdam? Quaerat adipisci blanditiis numquam dolor?mpus ut lacus</p>
+              <div class="logos">
+                <span class="material-symbols-outlined">
+                star
+                </span>
+                <span class="material-symbols-outlined">
+                  visibility
+                </span>
+                <span class="material-symbols-outlined">
+                  share
+                </span>
+              </div>
+            </div>
+            <div class="flashcard" id="c1">5
+              <p class="pab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, temporibus dicta omnis voluptate vel optio laudantium similique, aut harum ipsum, numquam nemo repudiandae dolor quibusdam? Quaerat adipisci blanditiis numquam dolor?mpus ut lacus</p>
+              <div class="logos">
+                <span class="material-symbols-outlined">
+                star
+                </span>
+                <span class="material-symbols-outlined">
+                  visibility
+                </span>
+                <span class="material-symbols-outlined">
+                  share
+                </span>
+              </div>
+            </div>
+            <div class="flashcard" id="c2">6
+              <p class="pab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, temporibus dicta omnis voluptate vel optio laudantium similique, aut harum ipsum, numquam nemo repudiandae dolor quibusdam? Quaerat adipisci blanditiis numquam dolor?mpus ut lacus</p>
+              <div class="logos">
+                <span class="material-symbols-outlined">
+                star
+                </span>
+                <span class="material-symbols-outlined">
+                  visibility
+                </span>
+                <span class="material-symbols-outlined">
+                  share
+                </span>
+              </div>
+            </div>
           </div>
           <h4 class="announcements-header" id="announcements-header">Announcements</h4>
           <div class="announcements" id="announcements">
             <div class="announce-cards">
               <h4>Site Maintenance</h4>
               <p>
-                <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni -->
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe voluptas fuga ab commodi maiores quisquam modi, quis minima ullam iure excepturi illum! Iure facilis, quod magni reprehenderit temporibus modi consequuntur?
               </p>
             </div>
             <div class="announce-cards" id="share-day">
               <h4>Community Share Day</h4>
               <p>
-                <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni -->
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe voluptas fuga ab commodi maiores quisquam modi, quis minima ullam iure excepturi illum! Iure facilis, quod magni reprehenderit temporibus modi consequuntur?
               </p>
             </div>
             <div class="announce-cards">
               <h4>Updated Privacy Policy</h4>
               <p>
-                <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni -->
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe voluptas fuga ab commodi maiores quisquam modi, quis minima ullam iure excepturi illum! Iure facilis, quod magni reprehenderit temporibus modi consequuntur?
               </p>
             </div>
           </div>
